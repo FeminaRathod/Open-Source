@@ -1,4 +1,4 @@
-#📌-- Pacman Codebase Overview
+# 📌-- Pacman Codebase Overview
 
 This code implements a Pac-Man-inspired game in C++ with OpenGL, featuring a maze, food items, and dynamic monster characters.
 
@@ -10,6 +10,7 @@ It uses efficient rendering techniques, including trigonometric calculations for
 
 The code is modular, making it easy to extend and refine for enhanced gameplay features like animations, sound effects, or AI-driven monster behavior.
 
+---
 
 ## **Introduction**
 This Pac-Man game is a classic implementation built using C++ and OpenGL. The game includes:
@@ -21,7 +22,7 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
 
 
 
-❓ Questions & Answers
+# ❓ Questions & Answers
 1. What is the Purpose of this Project?
    The Pac-Man game project aims to recreate the classic gameplay experience using C++ and OpenGL. It demonstrates fundamental game development principles:
    - Visual rendering of a maze and characters.
