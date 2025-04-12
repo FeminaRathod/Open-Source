@@ -24,7 +24,7 @@ The code is modular, making it easy to extend and refine for enhanced gameplay f
    iii. Win and Loses status:
         The game ends when Pac-man collides with monsters or collects all food items.
 
-4. How is the Maze Designed and Rendered?
+3. How is the Maze Designed and Rendered?
 
    i. The maze is represented using a 2D bitmap array:
        true values denote obstacles, while false values are walkable paths.
@@ -33,12 +33,12 @@ The code is modular, making it easy to extend and refine for enhanced gameplay f
        Borders and obstacles are drawn using glRectf() for rectangular shapes.
        Food items are displayed as points using glPoints().
 
-5. How are Characters Drawn?
+4. How are Characters Drawn?
    
    Pac-Man:  Pac-Man is drawn dynamically using a circle algorithm and trigonometric functions (sin, cos) for smooth rendering.
    Monsters: Monsters are represented by circles and rectangles, with distinct colors to differentiate them.
    
-6. What are the Key Graphical Features?
+5. What are the Key Graphical Features?
    
 - Welcome Screen: Displays instructions and game controls.
   
@@ -46,7 +46,7 @@ The code is modular, making it easy to extend and refine for enhanced gameplay f
   
 - Results Screen: Displays victory or loss messages with points earned.
 
-7. How Does the Project Showcase Game Development Principles?
+6. How Does the Project Showcase Game Development Principles?
    
    This project illustrates key principles:
      - Input Handling:- Responsive controls for the player.
