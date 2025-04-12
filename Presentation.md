@@ -14,25 +14,27 @@ The code is modular, making it easy to extend and refine for enhanced gameplay f
    - Establishing win/lose conditions for an engaging gameplay loop.
   
 2. What are the Core Features of the Game?
+   
    i. Monster:
       Four Monster with random movement make the game challenging.
+   
    ii. Points system:
        Players collect food scattered across the maze, earning points.
    iii. Win and Loses status:
         The game ends when Pac-man collides with monsters or collects all food items.
 
-3. How is the Maze Designed and Rendered?
+4. How is the Maze Designed and Rendered?
    i. The maze is represented using a 2D bitmap array:
        true values denote obstacles, while false values are walkable paths.
    ii. Rendering:
        Borders and obstacles are drawn using glRectf() for rectangular shapes.
        Food items are displayed as points using glPoints().
 
-4. How are Characters Drawn?
+5. How are Characters Drawn?
    Pac-Man:  Pac-Man is drawn dynamically using a circle algorithm and trigonometric functions (sin, cos) for smooth rendering.
    Monsters: Monsters are represented by circles and rectangles, with distinct colors to differentiate them.
 
-5. What are the Key Graphical Features?
+6. What are the Key Graphical Features?
 - Welcome Screen: Displays instructions and game controls.
 - Gameplay: Smooth graphics for maze, characters, and food, Dynamic resizing ensures compatibility across window sizes.
 - Results Screen: Displays victory or loss messages with points earned.
