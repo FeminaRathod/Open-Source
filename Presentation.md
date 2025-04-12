@@ -66,9 +66,13 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
 ## 6. How Does the Project Showcase Game Development Principles?
    
    This project illustrates key principles:
+    
      - Input Handling:- Responsive controls for the player.
+     
      - Collision Detection:- Ensures smooth gameplay and logical transitions between states.
+     
      - Rendering:- Combines basic shapes and dynamic updates for an engaging visual experience.
+     
      - Replayability:- Incorporates mechanics for resetting the game.
 
 
@@ -95,23 +99,30 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
 # 🔍 Findings & Observations
 
    Strengths 
+       
        1. Readable and Modular Code:
           - Functions are well-organized and clearly defined for initialization, rendering, and gameplay logic.
+       
        2. Graphics Integration:
           - OpenGL is effectively utilized to create a visually appealing game.
+       
        3. Dynamic Gameplay:
           - Randomized monster behavior and well-defined collision detection enhance replayability.
+       
        4. Game States:
           - Smooth transitions between welcome, gameplay, and results screens.
 
 # 🚀How It Works
 
    Flowchart
+    
     1. Welcome Screen:
        - Displays instructions and waits for user input (space key).
+    
     2. Gameplay:
        - Pac-Man collects food and avoids monsters.
        - Updates are rendered continuously.
+    
     3. Game Over:
        - Displays results based on collision or food completion.
 
