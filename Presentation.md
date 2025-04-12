@@ -37,7 +37,7 @@ The code is modular, making it easy to extend and refine for enhanced gameplay f
    
    Pac-Man:  Pac-Man is drawn dynamically using a circle algorithm and trigonometric functions (sin, cos) for smooth rendering.
    Monsters: Monsters are represented by circles and rectangles, with distinct colors to differentiate them.
-
+   
 6. What are the Key Graphical Features?
    
 - Welcome Screen: Displays instructions and game controls.
