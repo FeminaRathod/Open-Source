@@ -1,9 +1,25 @@
 #📌-- Pacman Codebase Overview
+
 This code implements a Pac-Man-inspired game in C++ with OpenGL, featuring a maze, food items, and dynamic monster characters.
+
 Players control Pac-Man using keyboard inputs (W, A, S, D) while avoiding collisions with randomly moving monsters.
+
 The game includes clear win conditions (collecting all food items) and lose conditions (collision with monsters).
+
 It uses efficient rendering techniques, including trigonometric calculations for drawing circular characters and a bitmap system to represent obstacles in the maze.
+
 The code is modular, making it easy to extend and refine for enhanced gameplay features like animations, sound effects, or AI-driven monster behavior.
+
+
+## **Introduction**
+This Pac-Man game is a classic implementation built using C++ and OpenGL. The game includes:
+- A fully structured maze.
+- A playable Pac-Man character controlled by the player.
+- Dynamic, unpredictable monsters to challenge the player.
+- Food scattered across the maze for the player to collect.
+- Win and lose conditions based on food collection and collision detectio
+
+
 
 ❓ Questions & Answers
 1. What is the Purpose of this Project?
@@ -67,7 +83,41 @@ The code is modular, making it easy to extend and refine for enhanced gameplay f
 
 
 🧱 Data Types Used
-- bool:- Used for flags like replay, over, and keyStates to track game state and keypress
+    - bool: Used for flags like replay, over, and keyStates to track game state and keypress
+    - string: Used for dynamic text rendering of scores and massages
+    - vector: Stores coordinates for borders, obstacles and food items.
+    - deque: Tracks food positions, allowing efficient additiona and removals.
+    - array: Dynamically allocates positions and directions for monsters 
+
+
+
+🔍 Findings & Observations
+
+   Strengths 
+       1. Readable and Modular Code:
+          - Functions are well-organized and clearly defined for initialization, rendering, and gameplay logic.
+       2. Graphics Integration:
+          - OpenGL is effectively utilized to create a visually appealing game.
+       3. Dynamic Gameplay:
+          - Randomized monster behavior and well-defined collision detection enhance replayability.
+       4. Game States:
+          - Smooth transitions between welcome, gameplay, and results screens.
+
+🚀How It Works
+
+   Flowchart
+    1. Welcome Screen:
+       - Displays instructions and waits for user input (space key).
+    2. Gameplay:
+       - Pac-Man collects food and avoids monsters.
+       - Updates are rendered continuously.
+    3. Game Over:
+       - Displays results based on collision or food completion.
+
+🧱Conclusion
+This project demonstrates a solid understanding of game development, C++ programming, and OpenGL rendering. With potential enhancements, it could evolve into a more polished and feature-rich Pac-Man clone. Congratulations on this impressive achievement!
+
+
 
 
 
