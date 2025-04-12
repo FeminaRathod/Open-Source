@@ -23,14 +23,14 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
 
 
 # ❓ Questions & Answers
-1. What is the Purpose of this Project?
+## 1. What is the Purpose of this Project?
    The Pac-Man game project aims to recreate the classic gameplay experience using C++ and OpenGL. It demonstrates fundamental game development principles:
    - Visual rendering of a maze and characters.
    - Handling player input for controlling Pac-Man.
    - Introducing randomness and unpredictability through monster behavior.
    - Establishing win/lose conditions for an engaging gameplay loop.
   
-2. What are the Core Features of the Game?
+## 2. What are the Core Features of the Game?
    
    i. Monster:
       Four Monster with random movement make the game challenging.
@@ -41,7 +41,7 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
    iii. Win and Loses status:
         The game ends when Pac-man collides with monsters or collects all food items.
 
-3. How is the Maze Designed and Rendered?
+## 3. How is the Maze Designed and Rendered?
 
    i. The maze is represented using a 2D bitmap array:
        true values denote obstacles, while false values are walkable paths.
@@ -50,12 +50,12 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
        Borders and obstacles are drawn using glRectf() for rectangular shapes.
        Food items are displayed as points using glPoints().
 
-4. How are Characters Drawn?
+## 4. How are Characters Drawn?
    
    Pac-Man:  Pac-Man is drawn dynamically using a circle algorithm and trigonometric functions (sin, cos) for smooth rendering.
    Monsters: Monsters are represented by circles and rectangles, with distinct colors to differentiate them.
    
-5. What are the Key Graphical Features?
+## 5. What are the Key Graphical Features?
    
 - Welcome Screen: Displays instructions and game controls.
   
@@ -63,7 +63,7 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
   
 - Results Screen: Displays victory or loss messages with points earned.
 
-6. How Does the Project Showcase Game Development Principles?
+## 6. How Does the Project Showcase Game Development Principles?
    
    This project illustrates key principles:
      - Input Handling:- Responsive controls for the player.
@@ -73,7 +73,7 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
 
 
 
-🔍 Code Structure Overview:
+# 🔍 Code Structure Overview:
 - init() : Sets up the game environment with maze, monsters and ket states.
 - drawLaberynth() : Draws the maze.
 - drawfood() : food
@@ -83,7 +83,7 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
 - main() : Runs the game and manages transitions  
 
 
-🧱 Data Types Used
+# 🧱 Data Types Used
     - bool: Used for flags like replay, over, and keyStates to track game state and keypress
     - string: Used for dynamic text rendering of scores and massages
     - vector: Stores coordinates for borders, obstacles and food items.
@@ -92,7 +92,7 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
 
 
 
-🔍 Findings & Observations
+# 🔍 Findings & Observations
 
    Strengths 
        1. Readable and Modular Code:
@@ -104,7 +104,7 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
        4. Game States:
           - Smooth transitions between welcome, gameplay, and results screens.
 
-🚀How It Works
+# 🚀How It Works
 
    Flowchart
     1. Welcome Screen:
@@ -115,7 +115,7 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
     3. Game Over:
        - Displays results based on collision or food completion.
 
-🧱Conclusion
+# 🧱Conclusion
 This project demonstrates a solid understanding of game development, C++ programming, and OpenGL rendering. With potential enhancements, it could evolve into a more polished and feature-rich Pac-Man clone. Congratulations on this impressive achievement!
 
 
