@@ -1,4 +1,4 @@
-🟡 Pac-Man-Style Arcade Game (C++ & OpenGL)
+# 🟡 Pac-Man-Style Arcade Game (C++ & OpenGL)
 Get ready to chomp your way through a maze of retro fun! This Pac-Man-inspired game is a visually-enhanced, modernized version of the arcade classic — built using C++ and OpenGL. From ghostly monsters to glowing food pellets, this game is packed with excitement and nostalgia. Can you outmaneuver the monsters and clear the maze?
 
 🚀 Features
