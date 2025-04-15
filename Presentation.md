@@ -127,7 +127,7 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
        - Displays results based on collision or food completion.
 
 # 🧱Conclusion
-This project demonstrates a solid understanding of game development, C++ programming, and OpenGL rendering. With potential enhancements, it could evolve into a more polished and feature-rich Pac-Man clone. Congratulations on this impressive achievement!
+This project demonstrates a solid understanding of game development, C++ programming, and OpenGL rendering. With potential enhancements, it could evolve into a more polished and feature-rich Pac-Man clone.
 
 
 
