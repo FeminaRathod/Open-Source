@@ -30,11 +30,11 @@ Copy,
 Edit,
 git clone https://github.com/your-username/pacman-opengl.git
 
-2️⃣ Open the project in your favorite C++ development environment (e.g., Visual Studio, Code::Blocks)
+2️⃣ Open the project in your favorite C++ development environment (e.g., Visual Studio, Code::Blocks).
 
-3️⃣ Make sure you have OpenGL and GLUT libraries set up (see prerequisites below)
+3️⃣ Make sure you have OpenGL and GLUT libraries set up (see prerequisites below).
 
-4️⃣ Compile and run the program
+4️⃣ Compile and run the program.
 
 5️⃣ Start playing and try to beat your high score! 🎯
 
