@@ -47,22 +47,6 @@ Windows OS (currently tested and developed for Windows)
 
 #include <windows.h> and #include <GL/glut.h> dependencies used
 
-# 📂 File Structure
-bash
-Copy
-Edit
-
-# 📁 /src
-📄 main.cpp            – Main game loop and logic
- 
-📄 draw.cpp            – Rendering functions (Pac-Man, ghosts, food, etc.)
- 
-📄 map.cpp             – Bitmap layout for walls and food logic
- 
-📄 utils.h/.cpp        – Helper functions and common utilities
- 
-📄 bitmap.txt             – Maze structure defined using characters
-
 # 🌟 Future Enhancements
 💡 Ghost AI Improvements – Smarter chasing and scatter behaviors
 
