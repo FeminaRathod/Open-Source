@@ -129,7 +129,8 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
 # 🧱Conclusion
 This project demonstrates a solid understanding of game development, C++ programming, and OpenGL rendering. With potential enhancements, it could evolve into a more polished and feature-rich Pac-Man clone.
 
-
+# Reference
+https://github.com/FeminaRathod/Pacman
 
 
 
