@@ -17,11 +17,11 @@ Get ready to chomp your way through a maze of retro fun! This Pac-Man-inspired g
 🎯 Chase & Escape Mechanics – Ghosts pursue Pac-Man intelligently based on pathfinding logic.
 
 # 🎮 Controls
-🕹 Arrow Keys – Move Pac-Man in the maze
+🕹 Arrow Keys – Move Pac-Man in the maze.
 
-⏹ ESC – Quit the game
+⏹ ESC – Quit the game.
 
-🔁 (Optional) Additional controls for debugging or restarting can be added
+🔁 (Optional) Additional controls for debugging or restarting can be added.
 
 # 🛠 Installation & Running
 1️⃣ Clone the repository or download the source code:
@@ -39,21 +39,21 @@ git clone https://github.com/your-username/pacman-opengl.git
 5️⃣ Start playing and try to beat your high score! 🎯
 
 # 📌 Prerequisites
-A C++ compiler with OpenGL support (e.g., MinGW, MSVC)
+A C++ compiler with OpenGL support (e.g., MinGW, MSVC).
 
-OpenGL Utility Toolkit (GLUT) or FreeGLUT installed
+OpenGL Utility Toolkit (GLUT) or FreeGLUT installed.
 
-Windows OS (currently tested and developed for Windows)
+Windows OS (currently tested and developed for Windows).
 
-#include <windows.h> and #include <GL/glut.h> dependencies used
+#include <windows.h> and #include <GL/glut.h> dependencies used.
 
 # 🌟 Future Enhancements
-💡 Ghost AI Improvements – Smarter chasing and scatter behaviors
+💡 Ghost AI Improvements – Smarter chasing and scatter behaviors.
 
-🎨 Visual Effects – Power-ups, lighting, and particle effects
+🎨 Visual Effects – Power-ups, lighting, and particle effects.
 
-🎮 Lives System – Add multiple lives and game-over conditions
+🎮 Lives System – Add multiple lives and game-over conditions.
 
-🔊 Sound Effects – Munching, ghost chase, and game over sounds
+🔊 Sound Effects – Munching, ghost chase, and game over sounds.
 
-🧩 Modular Levels – Load different maps and challenges
+🧩 Modular Levels – Load different maps and challenges.
