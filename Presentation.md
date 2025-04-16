@@ -32,21 +32,21 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
   
 ## 2. What are the Core Features of the Game?
    
-   i. Monster:
+   - Monster:
       Four Monster with random movement make the game challenging.
    
-   ii. Points system:
+   - Points system:
        Players collect food scattered across the maze, earning points.
    
-   iii. Win and Loses status:
+   - Win and Loses status:
         The game ends when Pac-man collides with monsters or collects all food items.
 
 ## 3. How is the Maze Designed and Rendered?
 
-   i. The maze is represented using a 2D bitmap array:
+   - The maze is represented using a 2D bitmap array:
        true values denote obstacles, while false values are walkable paths.
    
-   ii. Rendering:
+   - Rendering:
        Borders and obstacles are drawn using glRectf() for rectangular shapes.
        Food items are displayed as points using glPoints().
 
