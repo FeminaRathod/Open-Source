@@ -18,7 +18,7 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
 - A playable Pac-Man character controlled by the player.
 - Dynamic, unpredictable monsters to challenge the player.
 - Food scattered across the maze for the player to collect.
-- Win and lose conditions based on food collection and collision detectio
+- Win and lose conditions based on food collection and collision detection
 
 
 
