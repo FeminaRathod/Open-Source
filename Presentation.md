@@ -53,6 +53,7 @@ This Pac-Man game is a classic implementation built using C++ and OpenGL. The ga
 ## 4. How are Characters Drawn?
    
    Pac-Man:  Pac-Man is drawn dynamically using a circle algorithm and trigonometric functions (sin, cos) for smooth rendering.
+   
    Monsters: Monsters are represented by circles and rectangles, with distinct colors to differentiate them.
    
 ## 5. What are the Key Graphical Features?
